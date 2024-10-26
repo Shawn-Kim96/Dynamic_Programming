@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dijkstra-algorithm-visualization"
+version = "0.1.0"
+description = ""
+authors = ["shawn.kim <dun03191@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+matplotlib = "^3.9.2"
+opencv-python = "^4.10.0.84"
+tqdm = "^4.66.5"
+psutil = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
