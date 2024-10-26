@@ -109,7 +109,7 @@ class DataProcessor:
         optimal_value_function = [x[0] for x in result[1:]]
         
         op_string = ", ".join(map(str, optimal_path))
-        ovf_string = str(optimal_value_function)
+        ovf_string = ", ".join(map(str, optimal_value_function))
 
         with open(f"{SJSU_ID}.txt", "w") as file:
             file.write(op_string + '\n' + ovf_string)
